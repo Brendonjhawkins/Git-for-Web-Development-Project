@@ -1,0 +1,89 @@
+https://codepen.io/BJH2021/pen/MWmyKGL
+
+    1. What is Semantic HTML? 
+ -Semantic descriibes tags that have a clear meaning like <heading>. Where as <div> does not. 
+    2. What is HTML used for? 
+    -To create the skeleton of a website. back end data. It is a markup language; unlike a programming language like python.
+    3. What is an attribute and where do we put it? 
+    -An attribute is used in html as a text representation of something that will populate as something else on the website. Like an image or link.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    - This tag is used to highlight the focal header due to it being the largest of the heading tags. Though h1 can be used more than once, it should be used once so that web readers understand what is the major heading of the web page
+    5. Name two tags that have required attributes
+    - <a> and <img>
+    6. What do we put in the head of our HTML document? 
+    -the head should contain:
+    <title>#</title>
+    <meta charset="utf-8">
+    this data gives the website backend information. It is not seen on the page.
+    7. What is an id? 
+-The id selector allows you to define style rules that apply to a single element on the web page.
+    8. What elements can I add an id to? 
+- Any but just one
+    9. How many times can I use the same id on a page?  
+    - once
+    10. What is a class? 
+- allows you to define style rules that apply to any element with a class attribute
+    11. What elements can I add a class to? 
+- All
+    12. How many times can I use the same class on a page? 
+- It can be used more than once
+    13. How do I get my link to open in a new tab? 
+- target=“_blank”
+    14. What is the alt attribute in the image tag used for? 
+- This tag is used to create metadata for an image; to describe what is in a photo.
+    15. How do I reference an id?
+- use #
+    16. What is the difference between a section and a div? 
+- Section is used to separate entire sections of thought; div is used to divide various pieces of code, like separating <header> from <p>.
+    17. What is CSS used for? 
+- Css is used design the html skeleton. Add color, change margins, add specific fonts at specific locations, etc.
+    18. How to we select an element? Example - every h2 on the page
+- H2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+- Id is used for a specific element, class can be applied to multiple. You may want to use id when you want a specific area of a website to perform in away, similarly with class, if you want multiple areas to perform a way.
+    20. How do we select classes in CSS?
+- use the name of the class or include the parent as in parent.class{}
+    21. How do we select a p element with a single class of “human””? 
+- .Human{}
+    22. What is a parent child selector? When would this be useful? 
+- In HTML what is assigned to a parent, <header>, will apply to it’s children. You can, though, specifically select a child in the parent if you want css to apply to only the child, like <h1>; h1{color:red;}
+    23. How do you select all links within a div with the class of sidebar?
+- Div.sidebar a{}
+    24. What is a pseudo selector? 
+- A selector that selects elements that are in a specific state, like hovering over an element.”:hover”
+    25. What do we use the change the spacing between lines?
+- Line-height:#;
+    26. What do we use to change the spacing between letters?
+- letter-spacing:#;
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+- Text-transform:uppercase; Text-transform:lowercase; Text-transform:capitalize
+    28. How do I add a 1px border around my div that is dotted and black?
+- Div{  border:1px dotted black;}
+    29. How do I select everything on the page? 
+*{}
+    30. How do I write a comment in CSS?
+- /* */
+    31. How do I find out what file I am in, when I am using the command line?  
+- Pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+- Ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+- mv. You can not undo this action, also it changes the directory so, if not paying attention, can cause confusion.
+    34. Why should I use version control? 
+- To keep track of changes
+    35. How often should I commit to github?
+- Every time a change is made
+    36. What is the command we would use to push our repo up to github? 
+- git push -u origin “___”
+    37. Walk me through Lambda's git flow. 
+- cd desktop/lambda/u1
+- pwd
+- Git clone “link”
+- Cd “location of directory”
+- Code .
+- Git checkout -b “name of branch”
+- Git add .
+- Git 
+- Git commit -m “name of branch”
+- Git status
+- Git push -u origin “name of branch”
